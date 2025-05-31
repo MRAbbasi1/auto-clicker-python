@@ -1,0 +1,8 @@
+# Auto-Clicker Python Requirements
+# Core dependency for mouse automation
+pyautogui>=0.9.54
+
+# Additional useful packages (optional)
+# Pillow>=8.0.0  # For screenshot functionality (if needed)
+# keyboard>=1.13.0  # For keyboard shortcuts (future enhancement)
+# click>=8.0.0  # For command line interface (future enhancement)

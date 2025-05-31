@@ -31,12 +31,26 @@ A simple yet powerful Python-based auto clicker that automates mouse clicks at s
    ```
 
 2. **Install dependencies:**
+   
+   **Option 1: Direct installation**
    ```bash
    pip install pyautogui
    ```
 
-   Or install from requirements file:
+   **Option 2: Using requirements file (Recommended)**
    ```bash
+   pip install -r requirements.txt
+   ```
+
+   **Option 3: Using virtual environment (Best Practice)**
+   ```bash
+   # Create virtual environment
+   python -m venv venv
+   
+   # Activate virtual environment
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   
+   # Install dependencies
    pip install -r requirements.txt
    ```
 
